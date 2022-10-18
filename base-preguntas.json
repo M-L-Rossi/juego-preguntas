@@ -8,5 +8,16 @@
         "incorrecta3": "Monet",
         "imagen": "",
         "objectFit": "cover"
+    },
+
+    {
+        "categoria": "",
+        "pregunta": "¿Quién pintó la mona lisa?",
+        "respuesta": "Leonardo da Vinci",
+        "incorrecta1": "Picasso",
+        "incorrecta2": "Miguel Ángel",
+        "incorrecta3": "Monet",
+        "imagen": "",
+        "objectFit": "cover"
     }
 ]

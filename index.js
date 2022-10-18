@@ -108,7 +108,7 @@ function oprimir_btn(i) {
   suspender_botones = true;
   if (posibles_respuestas[i] == pregunta.respuesta) {
     preguntas_correctas++;
-    btn_correspondiente[i].style.background = "lightgreen";
+    btn_correspondiente[i].style.background = "rgb(17, 18, 24)";
   } else {
     btn_correspondiente[i].style.background = "pink";
   }
@@ -128,7 +128,7 @@ function oprimir_btn(i) {
 
 function reiniciar() {
   for (const btn of btn_correspondiente) {
-    btn.style.background = "white";
+    btn.style.background = "rgb(17, 18, 24)";
   }
   escogerPreguntaAleatoria();
 }
